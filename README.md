@@ -1,5 +1,5 @@
 # typescript-merge-sort
----
+
 ## How to run
 1. setup dependency
 ```bash
@@ -12,7 +12,6 @@ npm test
 ### expected result
 ![alt text](image.png)
 
----
 ## logic explanation
 
 merge sort
@@ -25,7 +24,7 @@ merge sort
  7. increse index of minimun value. For example, if a[ai] is minimum value, increase ai.
  8. do step 4-6 again until ai,bi,ci exceed it collection size.
  9. return result array.
----
+
 ## psudo code
 - collection_1 = a
 - collection_2 = b
@@ -43,7 +42,7 @@ int[] merge(a: int[], b:int[], c:int[]):
         b[bi] is min: ans[i++] = b[bi++]
         c[ci] is min: ans[i++] = c[ci++]
 ```
----
+
 ## unit test
 1. three positive arrays
 ```ts
@@ -93,5 +92,5 @@ a = []
 b = []
 c = []
 ```
----
+
 ## thank you for reading
